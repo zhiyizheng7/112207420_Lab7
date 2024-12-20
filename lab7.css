@@ -1,0 +1,25 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+}
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+th, td {
+    border: 1px solid #FF0000;
+    padding: 8px;
+    text-align: center;
+}
+th {
+    background-color: #90EE90;
+}
+input[type="number"] {
+    width: 100px;
+    padding: 5px;
+    margin-right: 10px;
+}
+button {
+    padding: 5px 10px;
+}

@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>112207420_Lab 7</title>
+    <link rel="stylesheet" href="lab7.css">
+    <script src="lab7.js" defer></script>
+</head>
+<body>
+    <h1>112207420_Lab 7</h1>
+
+    <div>
+        
+        <input type="number" id="math" placeholder="Math"min="0" max="100">
+        
+        <input type="number" id="english" placeholder="English"min="0" max="100">
+        <button onclick="addGrade()">Submit</button>
+    </div>
+
+    <table>
+        <thead>
+            <tr>
+                <th>#</th>
+                <th>Math</th>
+                <th>English</th>
+                <th>Average</th>
+            </tr>
+        </thead>
+        <tbody id="grades-body">
+            <!-- Rows will be added dynamically here -->
+        </tbody>
+        <tfoot>
+            <tr>
+                <td>Average</td>
+                <td id="math-avg">0.00</td>
+                <td id="english-avg">0.00</td>
+                <td id="overall-avg">0.00</td>
+            </tr>
+        </tfoot>
+    </table>
+</body>
+</html>
